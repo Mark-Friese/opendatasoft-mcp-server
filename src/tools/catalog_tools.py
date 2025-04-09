@@ -3,7 +3,10 @@ Tools for discovering and exploring datasets in the Opendatasoft catalog.
 """
 from typing import List, Dict, Any, Optional
 import json
-from ..ods_api import OdsApiClient
+import os
+import sys
+
+from src.ods_api import OdsApiClient
 
 async def search_datasets(
     api_client: OdsApiClient,

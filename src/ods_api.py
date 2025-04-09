@@ -15,7 +15,7 @@ class OdsApiClient:
         api_key: Optional API key for authenticated requests
     """
     
-    def __init__(self, base_url: str = "https://documentation-resources.opendatasoft.com", api_key: Optional[str] = None):
+    def __init__(self, base_url: str = "https://spenergynetworks.opendatasoft.com", api_key: Optional[str] = None):
         """
         Initialize the Opendatasoft API client.
         

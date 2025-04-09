@@ -3,7 +3,7 @@ Tools for analyzing and generating insights from Opendatasoft datasets.
 """
 from typing import List, Dict, Any, Optional
 import json
-from ods_api import OdsApiClient
+from src.ods_api import OdsApiClient
 
 async def summarize_dataset(
     api_client: OdsApiClient,

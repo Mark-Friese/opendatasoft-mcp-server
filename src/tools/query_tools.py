@@ -3,7 +3,7 @@ Tools for querying and retrieving records from Opendatasoft datasets.
 """
 from typing import List, Dict, Any, Optional
 import json
-from ..ods_api import OdsApiClient
+from src.ods_api import OdsApiClient
 
 async def get_dataset_records(
     api_client: OdsApiClient,
